@@ -1,0 +1,52 @@
+@keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+img{
+    width: 100%;
+}
+
+#fusee {
+    width: 250px;
+    height: 100px;
+    position: relative;
+    animation-name: fusee;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  #fusee img{
+      width: 100px;
+      height: 100px;
+  }
+
+  #fusee p{
+      display: none;
+      font-size: 0.8em;
+      text-align: start !important;
+  }
+
+  #fusee:hover p{
+    display: inline-block;
+  }
+
+  @keyframes fusee {
+    0%   {left:50px; top:150px;}
+    10% {left:50px; top:50px;}
+    20%  {left:150px; top:50px;}
+    30%  {left:200px; top:75px;}
+    40%  {left:300px; top:50px;}
+    50% {left:100px; top:50px;}
+    60%   {left:150px; top:0px;}
+    70% {left:300px; top:50px;}
+    80%  {left:250px; top:50px;}
+    90%  {left:100px; top:50px;}
+    100%  {left:100px; top:50px;}
+  }

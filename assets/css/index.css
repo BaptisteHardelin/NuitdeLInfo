@@ -1,0 +1,30 @@
+main{
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    margin-bottom: 2em;
+}
+
+main a:visited{
+    color: blue;
+}
+
+main a{
+    color: blue;
+}
+
+main form input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-size: 1.4em;
+    text-align: justify;
+    max-width: 80%;
+}
